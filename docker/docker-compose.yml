@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    restart: always
+  redis:
+    image: redis:7
+    restart: always
+  # Add Kafka / Zookeeper here for local dev or use confluentinc images
